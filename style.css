@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap');
 @import url('https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css');
 @import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
-@import url('https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css');
+/* @import url('https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'); */
 
 *{
     margin: 0;
@@ -122,6 +122,41 @@ i{
 }
 .info p{
     font-size: 20px;
+}
+
+/* -------------------------popup------------------------- */
+.popup{
+    z-index: 9999;
+    width: 250px;
+    bottom:-300px;
+    position: fixed;
+    left:50%;
+    transform: translateX(-50%);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.224);
+    border-radius: 15px;
+    overflow: hidden;
+    transition: .4s ease;
+}
+.popup-head{
+    background-color: #0099ff;
+    display: flex;
+    justify-content: flex-end;
+    padding:10px 15px;
+}
+.popup-body{
+    background-color: white;
+    height: fit-content;
+}
+
+
+.cross{
+    background-color: transparent;
+    border: none;
+}
+.stars{
+    padding: 30px 0;
+    text-align: center;
+    font-size: 30px;
 }
 
 footer{
