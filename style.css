@@ -153,12 +153,16 @@ i{
     border: none;
 }
 .stars{
-    padding: 30px 0;
+    padding: 30px 20px;
     text-align: center;
     font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
-.starts i{
-    color: gold !important;
+
+.stars img{
+    width: 30px !important;
 }
 
 footer{
