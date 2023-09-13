@@ -7,4 +7,4 @@ cross.addEventListener("click", ()=>{
 
 setTimeout(()=>{
     popup.style.bottom = "20px";
-}, 1000)
+}, 8000)
