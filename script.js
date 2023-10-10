@@ -7,4 +7,9 @@ cross.addEventListener("click", ()=>{
 
 setTimeout(()=>{
     popup.style.bottom = "20px";
-}, 8000)
+}, 7000000)
+
+
+document.addEventListener( 'DOMContentLoaded', function () {
+    new Splide( '#image-carousel' ).mount();
+  } );
