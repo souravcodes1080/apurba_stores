@@ -17,7 +17,7 @@ document.addEventListener( 'DOMContentLoaded', function () {
   
   window.addEventListener("scroll", function () {
     var scrollButton = document.querySelector(".scroll-to-top");
-    if (window.pageYOffset > 200) { // Adjust the scroll value as needed
+    if (window.scrollY > 200) { // Adjust the scroll value as needed
         scrollButton.style.bottom = "40px";
     } else {
         scrollButton.style.bottom = "-50px";
