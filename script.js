@@ -7,7 +7,7 @@ cross.addEventListener("click", ()=>{
 
 setTimeout(()=>{
     popup.style.bottom = "20px";
-}, 7000000)
+}, 7000)
 
 
 document.addEventListener( 'DOMContentLoaded', function () {
