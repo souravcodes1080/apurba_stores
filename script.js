@@ -13,3 +13,13 @@ setTimeout(()=>{
 document.addEventListener( 'DOMContentLoaded', function () {
     new Splide( '#image-carousel' ).mount();
   } );
+
+  
+  window.addEventListener("scroll", function () {
+    var scrollButton = document.querySelector(".scroll-to-top");
+    if (window.pageYOffset > 200) { // Adjust the scroll value as needed
+        scrollButton.style.bottom = "40px";
+    } else {
+        scrollButton.style.bottom = "-50px";
+    }
+});
