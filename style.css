@@ -14,12 +14,14 @@ header{
 }
 
 .nav-wrapper{
-    width: 90% !important;
+    width: 100% ;
     margin: 0 30px;
     padding-top: 20px;
     padding-bottom: 20px;
-    display: flex;
-    justify-content: space-between;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-around !important;
+    align-items: center !important;
 }
 .nav-wrapper img{
     width: 80px;
@@ -27,6 +29,7 @@ header{
 .nav-wrapper a{
     text-decoration: none;
     color: white;
+    margin: 0 !important;
 }
 
 .hero{
@@ -242,6 +245,6 @@ footer a{
         width: 500px !important;
     }
     .nav-wrapper img{
-        width: 100px !important;
+        width: 80px !important;
     }
   }
