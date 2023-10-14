@@ -17,8 +17,14 @@
   </head>
   <body>
     <header>
-      <div class="nav-wrapper">
+      <div class="container-sm nav-wrapper d-flex flex-row  align-items-center">
+        <a href="#gallery">
+          <i class="fi fi-rr-gallery"></i>
+        </a>
         <img loading="lazy" src="img/logo-small.png" alt="logo-apurba-stores" class="logo" />
+        <a href="#location">
+          <i class="fi fi-rr-marker"></i>
+        </a>
         <!-- <div class="menu">
                 <ul>
                     <li>About</li>
@@ -72,18 +78,18 @@
         <div class="info">
           <h3>Xerox</h3>
           <i class="fi fi-rr-caret-right"></i>
-          <p>₹2/page</p>
+          <span class="strike"><p>₹4/page</p></span>&nbsp;&nbsp;<p>₹2/page</p>
         </div>
         <div class="info">
           <h3>Print</h3>
           <i class="fi fi-rr-caret-right"></i>
-          <p>₹5/page</p>
+          <span class="strike"><p>₹10/page</p></span>&nbsp;&nbsp;<p>₹5/page</p>
         </div>
       </div>
       <hr />
     </section>
 
-    <section class="price">
+    <section class="price" id="location">
       <div class="icon-wrapper">
         <!-- <i class="fi fi-rs-marker"></i> -->
         <i class="fi fi-rr-marker"></i>
@@ -100,7 +106,7 @@
       </div>
     </section>
 
-    <section class="price">
+    <section class="price" id="gallery">
       <div class="icon-wrapper">
         <!-- <i class="fi fi-rs-marker"></i> -->
         <i class="fi fi-rr-gallery"></i>

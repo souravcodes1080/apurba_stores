@@ -14,13 +14,19 @@ header{
 }
 
 .nav-wrapper{
+    width: 90% !important;
+    margin: 0 30px;
     padding-top: 20px;
     padding-bottom: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 .nav-wrapper img{
-    width: 100px;
+    width: 80px;
+}
+.nav-wrapper a{
+    text-decoration: none;
+    color: white;
 }
 
 .hero{
@@ -123,6 +129,9 @@ i{
     font-size: 20px;
 }
 
+.strike{
+    text-decoration: line-through rgb(101, 101, 101);
+}
 /* -------------------------popup------------------------- */
 .popup{
     z-index: 9999;
@@ -175,7 +184,7 @@ i{
     object-fit: cover;
 }
 .splide__slide img {
-    width: 100%;
+    /* width: 100%; */
     height: auto;
   }
 .splide__list {
