@@ -12,19 +12,21 @@
 header{
     background-color: #0099ff;
 }
-
+header i{
+    font-size: 22px !important;
+}
 .nav-wrapper{
     width: 100% ;
-    margin: 0 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin: 0 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     display: flex !important;
     flex-direction: row !important;
     justify-content: space-around !important;
     align-items: center !important;
 }
 .nav-wrapper img{
-    width: 80px;
+    width: 60px;
 }
 .nav-wrapper a{
     text-decoration: none;
@@ -41,20 +43,20 @@ header{
 }
 
 .hero-img img{
-    padding:10px 0;
-    width: 100%;
+    padding:5px 0;
+    width: 80%;
     /* mix-blend-mode: multiply; */
 }
 .h6{
     color: white !important;
-    font-size: 25px !important;
+    font-size: 35px !important;
     padding: 40px 0 0 0;
 }
 .hero .p{
-    margin: 40px 0;
+    margin: 20px 0;
     color: white;
-    font-size: 20px;
-    text-align: justify;
+    font-size: 18px;
+    text-align: center;
 }
 .container{
     display: flex;
@@ -86,7 +88,7 @@ header{
 }
 .price h2{
     color: rgb(34, 34, 255);
-    margin-top: 30px;
+    margin-top: 20px;
     text-align: center;
     font-weight: 700;
     font-size: 30px !important;
@@ -110,7 +112,7 @@ hr{
    
 }
 .icon-wrapper{
-    margin-top: 30px;
+    margin-top: 10px;
     background-color: #0099ff7a;
     padding:27px 27px 20px 27px;
     border-radius: 100px;
@@ -129,7 +131,7 @@ i{
     flex-direction: row !important;
 }
 .info p{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .strike{
